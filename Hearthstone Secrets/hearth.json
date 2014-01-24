@@ -1,0 +1,70 @@
+{
+  "mage": {
+    "Counterspell": [
+      {
+        "class": {
+          "label": "Mage"
+        },
+        "name": {
+          "label": "Counterspell"
+        },
+        "rarity": {
+          "label": "Rare"
+        },
+        "type": {
+          "label": "spell"
+        }
+      }
+    ],
+    "Test": [
+      {
+        "class": {
+          "label": "Mage"
+        },
+        "name": {
+          "label": "Counterspell"
+        },
+        "rarity": {
+          "label": "Rare"
+        },
+        "type": {
+          "label": "spell"
+        }
+      }
+    ]
+  },
+  "hunter": {
+    "hspell1": [
+      {
+        "class": {
+          "label": "Mage"
+        },
+        "name": {
+          "label": "Counterspell"
+        },
+        "rarity": {
+          "label": "Rare"
+        },
+        "type": {
+          "label": "spell"
+        }
+      }
+    ],
+    "hspell2": [
+      {
+        "class": {
+          "label": "Mage"
+        },
+        "name": {
+          "label": "Counterspell"
+        },
+        "rarity": {
+          "label": "Rare"
+        },
+        "type": {
+          "label": "spell"
+        }
+      }
+    ]
+  }
+}
