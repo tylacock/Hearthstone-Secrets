@@ -1,70 +1,128 @@
 {
-  "mage": {
-    "Counterspell": [
-      {
-        "class": {
-          "label": "Mage"
-        },
-        "name": {
-          "label": "Counterspell"
-        },
-        "rarity": {
-          "label": "Rare"
-        },
-        "type": {
-          "label": "spell"
-        }
-      }
-    ],
-    "Test": [
-      {
-        "class": {
-          "label": "Mage"
-        },
-        "name": {
-          "label": "Counterspell"
-        },
-        "rarity": {
-          "label": "Rare"
-        },
-        "type": {
-          "label": "spell"
-        }
-      }
-    ]
-  },
-  "hunter": {
-    "hspell1": [
-      {
-        "class": {
-          "label": "Mage"
-        },
-        "name": {
-          "label": "Counterspell"
-        },
-        "rarity": {
-          "label": "Rare"
-        },
-        "type": {
-          "label": "spell"
-        }
-      }
-    ],
-    "hspell2": [
-      {
-        "class": {
-          "label": "Mage"
-        },
-        "name": {
-          "label": "Counterspell"
-        },
-        "rarity": {
-          "label": "Rare"
-        },
-        "type": {
-          "label": "spell"
-        }
-      }
-    ]
-  }
+    "mage": [
+             {
+             "name": "MAGE Silverback Patriarch",
+             "rarity": "Common",
+             "type": "Minion",
+             "race": "Beast",
+             "hero": "Any",
+             "mana": 3,
+             "attack": 1,
+             "health": 4,
+             "descr": "Taunt",
+             "image": "CS2_127"
+             },
+             {
+             "name": "MAGEGladiator's Longbow",
+             "rarity": "Epic",
+             "type": "Weapon",
+             "race": "None",
+             "hero": "Hunter",
+             "mana": 7,
+             "attack": 5,
+             "health": 0,
+             "descr": "Your hero is Immune while attacking.",
+             "image": "DS1_188"
+             },
+             {
+             "name": "MAGEElite Tauren Chieftain",
+             "rarity": "Legendary",
+             "type": "Minion",
+             "race": "None",
+             "hero": "Any",
+             "mana": 5,
+             "attack": 5,
+             "health": 5,
+             "descr": "Battlecry: Give both players the power to ROCK! (with a Power Chord card)",
+             "image": "PRO_001"
+             },
+             {
+             "name": "MAGEElite Tauren Chieftain",
+             "rarity": "Legendary",
+             "type": "Minion",
+             "race": "None",
+             "hero": "Any",
+             "mana": 5,
+             "attack": 5,
+             "health": 5,
+             "descr": "Battlecry: Give both players the power to ROCK! (with a Power Chord card)",
+             "image": "PRO_001"
+             }
+             ],
+    "hunter": [
+               {
+               "name": "HSilverback Patriarch",
+               "rarity": "Common",
+               "type": "Minion",
+               "race": "Beast",
+               "hero": "Any",
+               "mana": 3,
+               "attack": 1,
+               "health": 4,
+               "descr": "Taunt",
+               "image": "CS2_127"
+               },
+               {
+               "name": "HGladiator's Longbow",
+               "rarity": "Epic",
+               "type": "Weapon",
+               "race": "None",
+               "hero": "Hunter",
+               "mana": 7,
+               "attack": 5,
+               "health": 0,
+               "descr": "Your hero is Immune while attacking.",
+               "image": "DS1_188"
+               },
+               {
+               "name": "HElite Tauren Chieftain",
+               "rarity": "Legendary",
+               "type": "Minion",
+               "race": "None",
+               "hero": "Any",
+               "mana": 5,
+               "attack": 5,
+               "health": 5,
+               "descr": "Battlecry: Give both players the power to ROCK! (with a Power Chord card)",
+               "image": "PRO_001"
+               }
+               ],
+    "paladin": [
+                {
+                "name": "PSilverback Patriarch",
+                "rarity": "Common",
+                "type": "Minion",
+                "race": "Beast",
+                "hero": "Any",
+                "mana": 3,
+                "attack": 1,
+                "health": 4,
+                "descr": "Taunt",
+                "image": "CS2_127"
+                },
+                {
+                "name": "PGladiator's Longbow",
+                "rarity": "Epic",
+                "type": "Weapon",
+                "race": "None",
+                "hero": "Hunter",
+                "mana": 7,
+                "attack": 5,
+                "health": 0,
+                "descr": "Your hero is Immune while attacking.",
+                "image": "DS1_188"
+                },
+                {
+                "name": "PElite Tauren Chieftain",
+                "rarity": "Legendary",
+                "type": "Minion",
+                "race": "None",
+                "hero": "Any",
+                "mana": 5,
+                "attack": 5,
+                "health": 5,
+                "descr": "Battlecry: Give both players the power to ROCK! (with a Power Chord card)",
+                "image": "PRO_001"
+                }
+                ]
 }

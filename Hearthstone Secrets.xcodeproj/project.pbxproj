@@ -14,13 +14,14 @@
 		15AFC9B21892C6BE0033DF65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC9B11892C6BE0033DF65 /* main.m */; };
 		15AFC9B61892C6BE0033DF65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC9B51892C6BE0033DF65 /* AppDelegate.m */; };
 		15AFC9B91892C6BE0033DF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC9B71892C6BE0033DF65 /* Main.storyboard */; };
-		15AFC9BC1892C6BE0033DF65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC9BB1892C6BE0033DF65 /* ViewController.m */; };
 		15AFC9BE1892C6BE0033DF65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC9BD1892C6BE0033DF65 /* Images.xcassets */; };
 		15AFC9C51892C6BE0033DF65 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AFC9C41892C6BE0033DF65 /* XCTest.framework */; };
 		15AFC9C61892C6BE0033DF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AFC9A51892C6BE0033DF65 /* Foundation.framework */; };
 		15AFC9C71892C6BE0033DF65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AFC9A91892C6BE0033DF65 /* UIKit.framework */; };
 		15AFC9CF1892C6BE0033DF65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC9CD1892C6BE0033DF65 /* InfoPlist.strings */; };
 		15AFC9D11892C6BE0033DF65 /* Hearthstone_SecretsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC9D01892C6BE0033DF65 /* Hearthstone_SecretsTests.m */; };
+		15AFC9DC1892CF470033DF65 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC9DB1892CF470033DF65 /* ListViewController.m */; };
+		15AFC9DE1892CF900033DF65 /* hearth.json in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC9DD1892CF8F0033DF65 /* hearth.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,15 @@
 		15AFC9B41892C6BE0033DF65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15AFC9B51892C6BE0033DF65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		15AFC9B81892C6BE0033DF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15AFC9BA1892C6BE0033DF65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15AFC9BB1892C6BE0033DF65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		15AFC9BD1892C6BE0033DF65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15AFC9C31892C6BE0033DF65 /* Hearthstone SecretsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hearthstone SecretsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AFC9C41892C6BE0033DF65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		15AFC9CC1892C6BE0033DF65 /* Hearthstone SecretsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hearthstone SecretsTests-Info.plist"; sourceTree = "<group>"; };
 		15AFC9CE1892C6BE0033DF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15AFC9D01892C6BE0033DF65 /* Hearthstone_SecretsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hearthstone_SecretsTests.m; sourceTree = "<group>"; };
+		15AFC9DA1892CF470033DF65 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		15AFC9DB1892CF470033DF65 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		15AFC9DD1892CF8F0033DF65 /* hearth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hearth.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +117,10 @@
 				15AFC9B41892C6BE0033DF65 /* AppDelegate.h */,
 				15AFC9B51892C6BE0033DF65 /* AppDelegate.m */,
 				15AFC9B71892C6BE0033DF65 /* Main.storyboard */,
-				15AFC9BA1892C6BE0033DF65 /* ViewController.h */,
-				15AFC9BB1892C6BE0033DF65 /* ViewController.m */,
 				15AFC9BD1892C6BE0033DF65 /* Images.xcassets */,
 				15AFC9AC1892C6BE0033DF65 /* Supporting Files */,
+				15AFC9DA1892CF470033DF65 /* ListViewController.h */,
+				15AFC9DB1892CF470033DF65 /* ListViewController.m */,
 			);
 			path = "Hearthstone Secrets";
 			sourceTree = "<group>";
@@ -126,6 +128,7 @@
 		15AFC9AC1892C6BE0033DF65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15AFC9DD1892CF8F0033DF65 /* hearth.json */,
 				15AFC9AD1892C6BE0033DF65 /* Hearthstone Secrets-Info.plist */,
 				15AFC9AE1892C6BE0033DF65 /* InfoPlist.strings */,
 				15AFC9B11892C6BE0033DF65 /* main.m */,
@@ -231,6 +234,7 @@
 				15AFC9BE1892C6BE0033DF65 /* Images.xcassets in Resources */,
 				15AFC9B01892C6BE0033DF65 /* InfoPlist.strings in Resources */,
 				15AFC9B91892C6BE0033DF65 /* Main.storyboard in Resources */,
+				15AFC9DE1892CF900033DF65 /* hearth.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15AFC9BC1892C6BE0033DF65 /* ViewController.m in Sources */,
 				15AFC9B61892C6BE0033DF65 /* AppDelegate.m in Sources */,
 				15AFC9B21892C6BE0033DF65 /* main.m in Sources */,
+				15AFC9DC1892CF470033DF65 /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
