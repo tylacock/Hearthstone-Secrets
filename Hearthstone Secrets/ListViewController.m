@@ -12,9 +12,6 @@
 #define kHunterSegment 1
 #define kPaladinSegment 2
 
-#define kMoviesURL  @"https://itunes.apple.com/us/rss/topmovies/limit=15/json"
-#define kBooksURL @"https://itunes.apple.com/us/rss/toppaidebooks/limit=15/json"
-
 @interface ListViewController ()
 
 @property NSArray *entries;
