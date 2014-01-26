@@ -49,7 +49,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="KsW-Z8-iPj">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="pq5-Ed-DUR">
+                        <barButtonItem key="leftBarButtonItem" id="pq5-Ed-DUR">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="fsK-2v-LTj">
                                 <rect key="frame" x="16" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
