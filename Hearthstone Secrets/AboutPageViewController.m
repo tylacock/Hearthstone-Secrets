@@ -7,8 +7,9 @@
 //
 
 #import "AboutPageViewController.h"
+#import <MessageUI/MessageUI.h>
 
-@interface AboutPageViewController ()
+@interface AboutPageViewController () <MFMailComposeViewControllerDelegate>
 
 @end
 
@@ -26,12 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor colorWithRed:1.000 green:0.836 blue:0.405 alpha:1.000]};
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,4 +36,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        MFMailComposeViewController *composeViewController = [[MFMailComposeViewController alloc] initWithNibName:nil bundle:nil];
+        [composeViewController setMailComposeDelegate:self];
+        [composeViewController setToRecipients:@[@"tywlacock@gmail.com"]];
+        [composeViewController setSubject:@"Hearthstone Secrets App"];
+        [self presentViewController:composeViewController animated:YES completion:nil];
+
+    } else if (indexPath.row == 1) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.tylacock.com/hearth"]];
+    } else {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/hearthsecrets"]];
+    }
+}
+
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

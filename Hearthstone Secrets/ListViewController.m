@@ -38,6 +38,7 @@
     self.entries = @[];
     [self loadFromSegment:@"mage"];
     self.canDisplayBannerAds = YES;
+    self.banner.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -111,8 +112,20 @@
 ///////////////////////////////////////////////////////////////////////////////
 #pragma mark -  iAd stuff
 ///////////////////////////////////////////////////////////////////////////////
+-(void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:1];
+    
+    [UIView commitAnimations];
+}
 
-
-
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:0];
+    
+    [UIView commitAnimations];
+}
 
 @end

@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <adBannerView key="tableHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bke-Tt-DTa">
+                        <adBannerView key="tableHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="bke-Tt-DTa">
                             <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         </adBannerView>
@@ -75,7 +75,7 @@
                                 <segment title="Hunter"/>
                                 <segment title="Paladin"/>
                             </segments>
-                            <color key="tintColor" red="0.98469387755102045" green="0.8227372889832546" blue="0.39861962492113062" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="1" green="0.83552595149999997" blue="0.40481578489999998" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="didChangeSegment:" destination="DGc-vj-Z8i" eventType="valueChanged" id="Yua-Gq-7eR"/>
                             </connections>
