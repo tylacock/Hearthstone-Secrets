@@ -7,12 +7,15 @@
 //
 
 #import "ListViewController.h"
+#import <iAd/iAd.h>
 
 #define kMageSegment 0
 #define kHunterSegment 1
 #define kPaladinSegment 2
 
-@interface ListViewController ()
+@interface ListViewController () <ADBannerViewDelegate>
+
+@property (weak, nonatomic) IBOutlet ADBannerView *banner;
 
 @property NSArray *entries;
 
@@ -34,6 +37,7 @@
     [super viewDidLoad];
     self.entries = @[];
     [self loadFromSegment:@"mage"];
+    self.canDisplayBannerAds = YES;
 }
 
 - (void)didReceiveMemoryWarning
@@ -103,5 +107,12 @@
     
     return cell;
 }
+
+///////////////////////////////////////////////////////////////////////////////
+#pragma mark -  iAd stuff
+///////////////////////////////////////////////////////////////////////////////
+
+
+
 
 @end

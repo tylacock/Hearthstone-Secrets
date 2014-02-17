@@ -22,6 +22,8 @@
 		15AFC9D11892C6BE0033DF65 /* Hearthstone_SecretsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC9D01892C6BE0033DF65 /* Hearthstone_SecretsTests.m */; };
 		15AFC9DC1892CF470033DF65 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC9DB1892CF470033DF65 /* ListViewController.m */; };
 		15AFC9DE1892CF900033DF65 /* hearth.json in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC9DD1892CF8F0033DF65 /* hearth.json */; };
+		D04BC38218B1BDD200E415BC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04BC38118B1BDD200E415BC /* iAd.framework */; };
+		D04BC38518B1C1DC00E415BC /* AboutPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04BC38418B1C1DC00E415BC /* AboutPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		15AFC9DA1892CF470033DF65 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		15AFC9DB1892CF470033DF65 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		15AFC9DD1892CF8F0033DF65 /* hearth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hearth.json; sourceTree = "<group>"; };
+		D04BC38118B1BDD200E415BC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		D04BC38318B1C1DC00E415BC /* AboutPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutPageViewController.h; sourceTree = "<group>"; };
+		D04BC38418B1C1DC00E415BC /* AboutPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04BC38218B1BDD200E415BC /* iAd.framework in Frameworks */,
 				15AFC9A81892C6BE0033DF65 /* CoreGraphics.framework in Frameworks */,
 				15AFC9AA1892C6BE0033DF65 /* UIKit.framework in Frameworks */,
 				15AFC9A61892C6BE0033DF65 /* Foundation.framework in Frameworks */,
@@ -103,6 +109,7 @@
 		15AFC9A41892C6BE0033DF65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D04BC38118B1BDD200E415BC /* iAd.framework */,
 				15AFC9A51892C6BE0033DF65 /* Foundation.framework */,
 				15AFC9A71892C6BE0033DF65 /* CoreGraphics.framework */,
 				15AFC9A91892C6BE0033DF65 /* UIKit.framework */,
@@ -121,6 +128,8 @@
 				15AFC9AC1892C6BE0033DF65 /* Supporting Files */,
 				15AFC9DA1892CF470033DF65 /* ListViewController.h */,
 				15AFC9DB1892CF470033DF65 /* ListViewController.m */,
+				D04BC38318B1C1DC00E415BC /* AboutPageViewController.h */,
+				D04BC38418B1C1DC00E415BC /* AboutPageViewController.m */,
 			);
 			path = "Hearthstone Secrets";
 			sourceTree = "<group>";
@@ -256,6 +265,7 @@
 				15AFC9B61892C6BE0033DF65 /* AppDelegate.m in Sources */,
 				15AFC9B21892C6BE0033DF65 /* main.m in Sources */,
 				15AFC9DC1892CF470033DF65 /* ListViewController.m in Sources */,
+				D04BC38518B1C1DC00E415BC /* AboutPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +474,7 @@
 				15AFC9D61892C6BE0033DF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15AFC9D71892C6BE0033DF65 /* Build configuration list for PBXNativeTarget "Hearthstone SecretsTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +483,7 @@
 				15AFC9D91892C6BE0033DF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
