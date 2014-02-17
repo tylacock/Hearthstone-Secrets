@@ -41,6 +41,7 @@
     self.banner.delegate = self;
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

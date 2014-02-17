@@ -125,6 +125,7 @@
 		15AFC9AB1892C6BE0033DF65 /* Hearthstone Secrets */ = {
 			isa = PBXGroup;
 			children = (
+				D04BC38818B1CB4700E415BC /* iPad */,
 				15AFC9B41892C6BE0033DF65 /* AppDelegate.h */,
 				15AFC9B51892C6BE0033DF65 /* AppDelegate.m */,
 				15AFC9B71892C6BE0033DF65 /* Main.storyboard */,
@@ -166,6 +167,13 @@
 				15AFC9CD1892C6BE0033DF65 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04BC38818B1CB4700E415BC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,7 +407,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hearthstone Secrets/Hearthstone Secrets-Prefix.pch";
 				INFOPLIST_FILE = "Hearthstone Secrets/Hearthstone Secrets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,7 +422,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hearthstone Secrets/Hearthstone Secrets-Prefix.pch";
 				INFOPLIST_FILE = "Hearthstone Secrets/Hearthstone Secrets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
